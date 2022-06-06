@@ -1,0 +1,222 @@
+body {
+    min-width: 400px;
+    background: $color-blueCustom;
+    color: $color-white;
+    font-family: $fontgenerale;
+}
+
+/* TEMA BIANCO */
+.temawhitebg {
+    background: $color-whitetheme  !important;
+
+    .teamwhiteheader {
+        background: $gradiente-headerwhite  !important;
+    }
+
+    .temawhitefooter {
+        background-color: $color-whitetheme  !important;
+    }
+
+    .temawhiteservices {
+        background: $gradiente-viola-whitetheme  !important;
+    }
+
+}
+
+
+/* navbar */
+
+.navbar-toggler-icon {
+    color: $color-white  !important;
+}
+
+.navbarCustom {
+    background: $gradiente-header;
+
+    .nav-link {
+        color: $color-white  !important;
+    }
+
+    img {
+        margin: 1%
+    }
+
+    @media screen and (min-width: 767px) {
+
+        p,
+        hr {
+            display: none;
+        }
+
+    }
+
+}
+
+/* SEZIONE LISTA CONTATTI */
+
+.section1 {
+    background-image: url("../img/graffi.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.custombegin {
+
+    margin: 5% !important;
+    margin-top: 270px !important;
+    margin-bottom: 15% !important;
+
+    @media screen and (max-width: 1200px) {
+        margin-top: 130px !important;
+    }
+
+    .btn-primary {
+        background-color: $background-button;
+        color: $textcolor-button;
+        border: none;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    img {
+        position: absolute;
+        top: 200px;
+        right: 5%;
+        width: 550px;
+
+        @media screen and (max-width: 1399px) {
+            top: 326px;
+            width: 480px;
+        }
+
+        @media screen and (max-width: 1200px) {
+            display: none;
+        }
+    }
+
+    .info {
+
+        width: 55%;
+
+        @media screen and (max-width: 1200px) {
+            width: 100%;
+        }
+    }
+
+}
+
+.services {
+    padding: 5%;
+    background: $gradiente-viola;
+    text-align: center;
+}
+
+/* SEZIONE SERVIZI */
+.servizi {
+    background-image: url(https://epicode.com/assets/community-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $color-white;
+    text-shadow: 2px 2px 15px $color-white;
+    padding: 20%;
+
+    .card-header {
+        background: $viola-con-blu;
+        color: $color-white;
+
+    }
+
+    .card {
+        background: url(../img/box.svg);
+        border: $color-black;
+
+    }
+
+    .border-primary {
+        border-color: transparent !important;
+    }
+
+    .cardcustom {
+        background-color: $color-white;
+        color: $color-black;
+    }
+
+    a {
+        color: $color-white;
+        text-decoration: none;
+    }
+}
+
+/* SEZIONE PARTNERSHIPS */
+
+.partnerships {
+    background: $gradiente-biancosfocatura;
+    color: $color-black;
+    height: 23%;
+    padding: 15%;
+
+    @media screen and (max-width: 767px) {
+        height: 20%;
+        padding: 15%;
+        padding-top: 40%;
+    }
+
+    img {
+        margin-top: 10%;
+        width: 70%;
+
+
+    }
+
+    .padding {
+        margin-left: 20%;
+    }
+
+}
+
+/* CAROSELLO TESTIMONIANZE */
+.reviews-img {
+
+    img {
+        width: 200px;
+    }
+}
+
+/*  FOOTER */
+
+.footer {
+    background-image: url(../img/graffi2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $color-blueCustom;
+
+}
+
+.bg-light {
+    z-index: 100;
+    padding-top: 20%;
+    color: $color-white  !important;
+    background-color: transparent !important;
+
+}
+
+
+
+
+/* Query */
+.mobile {
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
+}
+
+.Mpc {
+    @media screen and (min-width: 767px) {
+        display: none;
+    }
+}

@@ -1,0 +1,17 @@
+/* 
+Mi scuso in anticipo per questo commento. Non avendo capito la traccia fornita da Epicode, ho dedotto leggendo la slide troppe volte 
+che la funzione da creare era qualcosa del genere.
+Purtroppo ho avuto problemi con la piattaforma Webex nel momento in cui il proff spiegava la traccia del esercizio.
+La lezione in questione con  la spiegazione del esercizio purtroppo ancora oggi (6/6/2022 ore 3:28 del mattino) non viene visualizzata correttamente dal portale.
+Spero di aver fatto un buon lavoro seguendo la traccia per quanto possibile.
+anche se mi pare di aver capito che non era richiesto JavaScript, ho implementato una semplice funzione toggle per far funzionare comunque le varie modalit&agrave di colore
+richieste dalla traccia. 
+ */
+
+@function change-color($colors){
+    @if(lightness($colors)>=50){
+        @return $color-blueCustom;
+    } @else {
+        @return $color-whitetheme;
+    }
+}
